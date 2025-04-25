@@ -8,7 +8,7 @@ const StoreContextProvider = (props) => {
     const [category, setCategory] = useState(() => {
         return localStorage.getItem("category") || "";
     });
-    const url = "http://localhost:4000"
+    const url = "https://react-furniture-web.onrender.com"
     const [product_list, setProductlist] = useState([])
     const [token,setToken] = useState("")
     // console.log(token);
