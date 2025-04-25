@@ -21,7 +21,7 @@ app.get('/' ,(req,res)=>{
 })
 // api endpoints
 app.use("/api/products",productrRouter)
-app.use('/images', express.static('uploads'));
+app.use('/images', express.static('Uploads'));
 app.use('/api/user',userRouter)
 app.use('/api/user',cartRoute)
 app.use("/api/order",orderRouter)
