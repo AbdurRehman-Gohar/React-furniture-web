@@ -81,12 +81,7 @@ import divan_4 from "./divan-4.jpg"
 import divan_5 from "./divan-5.jpg"
 import divan_6 from "./divan-6.jpg"
 
-import showcase_1 from "./Showcase_1.jpg"
-import showcase_2 from "./showcase-2.jpg"
-import showcase_3 from "./showcase-3.jpg"
-import showcase_4 from "./showcase-4.jpg"
-import showcase_5 from "./showcase-5.jpg"
-import showcase_6 from "./showcase-6.jpg"
+import showcase_1 from "./showcase.jpg"
 
 import sofa_1 from "./sofa1.webp"
 import sofa_2 from "./sofa2.webp"
