@@ -1,0 +1,127 @@
+.Collection {
+    align-items: center;
+    text-align: center;
+    margin-top: 12vh;
+ 
+
+}
+.all_collections{
+    display: block;
+}
+
+.Collection h1 {
+    font-size: 50px;
+    font-weight: 400;
+    color: #543A14;
+    margin-top: 30px;
+    text-align: left;
+}
+
+hr {
+    height: 4px;
+    color: #543A14;
+    outline: #543A14;
+    background-color: #543A14;
+    margin-top: 15px;
+
+}
+
+.Collection p {
+    text-align: left;
+    margin-top: 8px;
+    color: #543A14;
+}
+
+.collection-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    margin-top: 30px;
+    gap: 85px;
+    row-gap: 50px;
+    margin-top: 5vh;
+}
+
+.collection-list-items img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.items {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 2s;
+    margin-bottom: 5vh;
+}
+
+.items span {
+    font-size: 30px;
+    padding-top: 10px;
+    color: #543A14;
+    font-weight: 500;
+}
+
+@media (max-width:1050px) {
+    .Collection h1 {
+        font-size: 40px;
+        font-weight: 350;
+
+    }
+}
+
+@media (max-width:900px) {
+    .Collection h1 {
+        font-size: 30px;
+        font-weight: 350;
+
+    }
+}
+
+@media (max-width:750px) {
+    .Collection h1 {
+        font-size: 23px;
+        font-weight: 400;
+
+    }
+
+    .Collection p {
+        text-align: left;
+        margin-top: 8px;
+        font-size: 14px;
+    }
+
+    hr {
+        height: 2px;
+        margin-top: 12px;
+
+    }
+
+    .items {
+        width: 275px;
+        height: 275px;
+        margin: auto;
+        border-radius: 15px;
+        box-shadow: 10px 10px 10px #00000015;
+        transition: 0.3s;
+        animation: fadeIn 2s;
+        margin-bottom: 5vh;
+    }
+
+    .collection-list-items img {
+        width: 275px;
+        height: 275px;
+        border-radius: 5px;
+    }
+
+    .items span {
+        font-size: 25px;
+        padding-top: 10px;
+        color: #543A14;
+        font-weight: 500;
+    }
+
+}

@@ -1,0 +1,7 @@
+.Shop{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
+    margin-top: 30px;
+    gap: 70px;
+    row-gap: 50px; 
+}

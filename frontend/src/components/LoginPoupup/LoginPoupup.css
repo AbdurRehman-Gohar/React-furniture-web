@@ -1,0 +1,85 @@
+.LoginPoupup {
+    height: 100%;
+    width: 100%;
+    background-color: #00000090;
+    position: absolute;
+    display: grid;
+    z-index: 1;
+}
+
+.login-poupup-contanier {
+    place-self: center;
+    width: max(23vw, 330px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    animation: fadeIn 0.4s;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.name img {
+    width: 16px;
+    cursor: pointer;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputs input {
+    outline: none;
+    border: 1px solid #c9c9c9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.login-poupup-contanier button {
+    padding: 10px;
+    color: white;
+    background-color: #543A14;
+    outline: none;
+    border: 1px solid #543A14;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login-poupup-condations {
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+}
+
+.login-poupup-condations input {
+    margin-top: 5px;
+}
+
+.LoginPoupup p span {
+    color: #543A14;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.LoginPoupup p {
+    color: black;
+    font-weight: 300;
+}
+
+.name p {
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
